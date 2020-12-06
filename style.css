@@ -1,0 +1,85 @@
+/* Colors and fonts */
+body{
+	background: #f1f6f9;
+	color: #14274e;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	color: #575F7D;
+	font-size: 32px;
+	font-weight: 250;
+}   
+h2{
+	color: rgb(100, 100, 100);
+	font-size: 24px;
+	font-weight: 300;
+}
+a{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #32a850;
+	font-weight: 600;
+	font-size: 16px
+}
+a:hover{
+	color: black;	
+}
+
+/* Custom design with class */
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white{
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0px 10 px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+	margin: 10px
+}
+.img-circle{
+	border-radius: 50%;
+
+}
+.btn-blue{
+	background-color: #32a850
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #63b0cf;
+	color: white;
+}
+/* Design adjustments using id */
+#introduction p {
+	margin-top: 40px
+	margin-bottom:40px;
+}
+#logo{
+	padding-left: 0px;
+	font-size: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
